@@ -1,19 +1,19 @@
-function isPrime(num)
+function isPrime(number)
 {
-let count=i;
-for(let i=0;i<num;i++){
-)if(num%i==0){
-count++;
+let factor=0;
+for(let i=1;i<=number;i++){
+)if(number%i==0){
+factor++;
 }
 }
-if(count==2)
+if(factor==2)
 {
 return true;
 }
-return true;
+return false;
 }
 let ans=isPrime(34);
-if(ans=true){
+if(ans==true){
 console.log("Prime")
 }
 else
